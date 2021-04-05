@@ -11,7 +11,6 @@ body {
 h2 {
   color: midnightblue;
   background-color: steelblue;
-  display: inline-block;
 }
 
 header {
@@ -57,4 +56,27 @@ header nav ul li a {
   font-weight: lighter;
   /* font-size: 1.55vw; */
   padding: 5px 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+}
+.section-title {
+  width: 10%;
+  display: flex;
+  justify-content: right;
+  border-right: midnightblue solid 2px;
+  padding-right: 10px;
+}
+.section-content {
+  width: 90%;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.section-content p {
+  margin: auto;
+  text-align: left;
 }
