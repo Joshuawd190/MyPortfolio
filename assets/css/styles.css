@@ -6,6 +6,12 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
+  background-color: mintcream;
+}
+h2 {
+  color: midnightblue;
+  background-color: steelblue;
+  display: inline-block;
 }
 
 header {
@@ -15,6 +21,8 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: flex-start;
+  background-color: steelblue;
+  color: midnightblue;
 }
 
 header h1 {
@@ -25,6 +33,7 @@ header h1 {
 
 header a {
   text-decoration: none;
+  color: midnightblue;
 }
 
 header nav {
@@ -38,9 +47,14 @@ header nav ul {
   align-items: center;
   list-style: none;
 }
+header nav ul li {
+  display: flex;
+  flex: wrap space-between;
+}
 
 header nav ul li a {
-  margin: 0 30px;
+  margin: auto 30px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  /* font-size: 1.55vw; */
+  padding: 5px 10px;
 }
