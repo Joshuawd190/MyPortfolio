@@ -10,7 +10,9 @@ body {
 }
 h2 {
   color: midnightblue;
-  background-color: steelblue;
+  width: 100%;
+  padding-right: 10px;
+  text-align: right;
 }
 
 header {
@@ -58,25 +60,64 @@ header nav ul li a {
   padding: 5px 10px;
 }
 
-.about-me {
+.section-container {
   display: flex;
   flex-wrap: wrap;
-  text-align: right;
 }
 .section-title {
   width: 10%;
   display: flex;
-  justify-content: right;
+
   border-right: midnightblue solid 2px;
   padding-right: 10px;
+  background-color: steelblue;
 }
 .section-content {
   width: 90%;
   display: flex;
-  justify-content: left;
   flex-wrap: wrap;
+  height: auto;
 }
 .section-content p {
   margin: auto;
+  width: 95%;
   text-align: left;
+  font-size: 1.5em;
+}
+.section-content article {
+  margin: 10px;
+  text-align: left;
+  display: flex;
+}
+
+.first-proj {
+  width: 95%;
+  height: 350px;
+  background-image: url("../images/Chicago-Art-Wayfinder-Home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  border: midnightblue 5px solid;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: left;
+}
+.project {
+  width: 45%;
+  height: 200px;
+  background-image: url("https://via.placeholder.com/350x150");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  border: midnightblue 5px solid;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: left;
+}
+.project-title {
+  background-color: steelblue;
+  padding: 20px;
+  color: midnightblue;
+  font-size: 2em;
+  width: fit-content;
 }
