@@ -5,14 +5,14 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: mintcream;
 }
 h2 {
   color: midnightblue;
   width: 100%;
   padding-right: 10px;
-  text-align: right;
+  text-align: left;
 }
 
 header {
@@ -65,7 +65,7 @@ header nav ul li a {
   flex-wrap: wrap;
 }
 .section-title {
-  width: 10%;
+  width: 100vw;
   display: flex;
 
   border-right: midnightblue solid 2px;
@@ -73,14 +73,14 @@ header nav ul li a {
   background-color: steelblue;
 }
 .section-content {
-  width: 90%;
+  /* width: 90vw; */
   display: flex;
   flex-wrap: wrap;
   height: auto;
 }
 .section-content p {
   margin: auto;
-  width: 95%;
+  width: 95vw;
   text-align: left;
   font-size: 1.5em;
 }
@@ -91,9 +91,9 @@ header nav ul li a {
 }
 
 .first-proj {
-  width: 95%;
+  width: 95vw;
   height: 350px;
-  background-image: url("../images/Chicago-Art-Wayfinder-Home.png");
+  background-image: url('../images/Chicago-Art-Wayfinder-Home.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: grey;
@@ -103,9 +103,22 @@ header nav ul li a {
   justify-content: left;
 }
 .project {
-  width: 45%;
+  width: 45vw;
   height: 200px;
-  background-image: url("https://via.placeholder.com/350x150");
+  background-image: url('https://via.placeholder.com/350x150');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  border: midnightblue 5px solid;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: left;
+}
+
+.project1 {
+  width: 45vw;
+  height: 200px;
+  background-image: url('../images/joshuawd190-dolphin-group.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: grey;
